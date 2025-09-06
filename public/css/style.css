@@ -1,0 +1,116 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body,
+#map {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+  background: #2563eb;
+  color: white;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1001;
+}
+.header .title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.header .btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  background: #1e40af;
+  color: white;
+  cursor: pointer;
+}
+.header .btn:hover {
+  background: #1b3a99;
+}
+
+/* Main map container */
+.main {
+  position: relative;
+  height: 100%;
+}
+
+/* Floating Panel */
+.panel {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  width: 250px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  font-size: 0.9rem;
+  z-index: 1000;
+}
+
+/* Panel Buttons */
+.panel .btn {
+  width: 100%;
+  margin-top: 6px;
+}
+
+/* User list inside panel */
+.user-list {
+  list-style: none;
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 8px;
+}
+.user-list li {
+  padding: 6px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.85rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .panel {
+    width: 200px;
+    top: 60px;
+    right: 10px;
+    padding: 10px;
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 480px) {
+  .panel {
+    width: 90%;
+    left: 5%;
+    right: auto;
+    top: 60px;
+    padding: 10px;
+    font-size: 0.82rem;
+  }
+  .header {
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px 10px;
+  }
+  .header .btn {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+  }
+}
