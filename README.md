@@ -37,7 +37,7 @@ realtime-tracker/
         └── script.js
         
 ⚡ Installation
-git clone https://github.com/your-username/realtime_tracker.git
+git clone https://github.com/fattahniz/realtime_tracker.git
 cd realtime_tracker
 npm install
 npm start
