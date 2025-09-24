@@ -1,8 +1,8 @@
-🌍 Real-Time Location Tracker
+## 🌍 Real-Time Location Tracker
 
 A real-time location tracking web app where multiple users can share and see live locations on an interactive map. Built with Node.js, Express, Socket.io, and Leaflet.js, fully responsive for desktop and mobile.
 
-✨ Features
+## ✨ Features
 
 🌐 Real-time location sharing for multiple users
 
@@ -18,14 +18,25 @@ A real-time location tracking web app where multiple users can share and see liv
 
 🚀 Easy deployment on free platforms (Replit, Render, Vercel, Fly.io)
 
-🛠 Tech Stack
-| Frontend      | Backend          | Real-Time     |
-| ------------- | ---------------- | ------------- |
-| HTML, CSS, JS | Node.js, Express | Socket.io     |
-| Leaflet.js    | EJS              | OpenStreetMap |
+## 🛠 Tech Stack
+**Frontend:** HTML, CSS, JavaScript, Leaflet.js
 
-📂 Folder Structure
-realtime-tracker/
+**Backend:** Node.js, Express, EJS
+
+**Tools:** Socket.io, OpenStreetMap
+
+## Installation
+1. Clone the repo
+```bash
+   git clone https://github.com/fattahniz/realtime_tracker.git
+cd realtime_tracker
+npm i
+npm start
+```
+
+## 📂 Project Structure
+```css
+Project/
 ├── app.js             # Main server file
 ├── package.json       # Dependencies and scripts
 ├── views/             # EJS templates
@@ -34,32 +45,17 @@ realtime-tracker/
     ├── css/
     │   └── style.css
     └── js/
-        └── script.js
+        └── main.js
+└── README.md
+```  
         
-⚡ Installation
-git clone https://github.com/fattahniz/realtime_tracker.git
-cd realtime_tracker
-npm install
-npm start
-
-        
-🤝 Contributing
-
+## 🤝 Contributing
 Fork the repository
 
-Create a new branch (git checkout -b feature-name)
+1. Create a new branch (feature/my-feature)
+2. Commit changes
+3. Push branch and create a Pull Request
 
-Make changes & commit (git commit -m 'Add feature')
-
-Push (git push origin feature-name)
-
-Open a Pull Request
-
-
-👤 Author
-
-Abdul Fattah Nizamani
-
-[GitHub](https://github.com/fattahniz)
-
-[LinkedIn](https://linkedin.com/in/fattahniz)
+## 📄 License
+This project is licensed under the [MIT License](LICENSE) – see the LICENSE
+file for details.
