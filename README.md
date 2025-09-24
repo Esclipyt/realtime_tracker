@@ -21,9 +21,9 @@ A real-time location tracking web app where multiple users can share and see liv
 ## 🛠 Tech Stack
 **Frontend:** HTML, CSS, JavaScript, Leaflet.js
 
-**Backend:** Node.js, Express, EJS
+**API:** OpenStreetMap
 
-**Tools:** Socket.io, OpenStreetMap
+**Backend:** Node.js, Express, EJS, Socket.io
 
 ## Installation
 1. Clone the repo
