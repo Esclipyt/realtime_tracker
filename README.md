@@ -36,17 +36,30 @@ npm start
 
 ## 📂 Project Structure
 ```css
-Project/
-├── app.js             # Main server file
-├── package.json       # Dependencies and scripts
-├── views/             # EJS templates
-│   └── index.ejs
-└── public/            # Static files (CSS, JS)
-    ├── css/
-    │   └── style.css
-    └── js/
-        └── main.js
-└── README.md
+project/
+│
+├─ backend/
+│   ├─ src/
+│   │   ├─ controllers/   # Future controllers for handling logic
+│   │   ├─ routes/        # Future route files
+│   │   ├─ sockets/       # Socket logic
+│   │   └─ server.js
+│   ├─ view/
+│   │   └─ index.ejs
+│   ├─ package.json
+│   └─ package-lock.json
+│
+├─ frontend/
+│   ├─ css/
+│   │   └─ style.css
+│   ├─ js/
+│   │   └─ index.js
+│   └─ index.html
+│
+├─ docs/
+│   └─ steps.yaml
+│
+└─ README.md
 ```  
         
 ## 🤝 Contributing
